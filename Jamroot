@@ -1,0 +1,3 @@
+use-project /Lib1 : Lib1 ;
+use-project /Lib2 : Lib2 ;
+

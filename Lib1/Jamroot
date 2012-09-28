@@ -1,0 +1,5 @@
+project
+	: usage-requirements <include>.
+	;
+
+lib Lib1 : Lib1.c ;

@@ -1,0 +1,7 @@
+project
+	: usage-requirements <include>.
+	;
+
+lib Lib2 :
+    Lib2.cpp
+    /Lib1//Lib1 ;
