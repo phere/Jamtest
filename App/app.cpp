@@ -1,13 +1,13 @@
 #include <iostream>
 
-#include "Lib2.hpp"
+#include "Subclass.hpp"
 
 using namespace std;
 
 int main ()
 {
   cout << __FILE__ << " main()" << endl;
-  Lib2 lib2;
-  lib2(4);
+  Subclass sub(3);
+  sub(4);
   return 0;
 }

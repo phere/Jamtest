@@ -1,1 +1,1 @@
-exe App : app.cpp /Lib2//Lib2 ;
+exe App : [ glob *.cpp ] /Lib2//Lib2 ;
